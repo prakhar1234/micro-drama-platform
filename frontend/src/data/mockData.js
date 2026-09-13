@@ -123,6 +123,62 @@ export const MOCK_DRAMAS = [
     views: '1.5M',
     avgRating: 4.8,
   },
+  {
+    id: '9',
+    title: 'Dead Signal',
+    genre: 'Thriller',
+    style: 'Anime',
+    episodes: 10,
+    rating: '18+',
+    description: 'A radio host receives transmissions from a frequency that shouldn\'t exist — each broadcast predicts a death that\'s already happening.',
+    gradient: 'linear-gradient(135deg, #d90429, #2b2d42)',
+    // Anonymous neon mask — thriller tension
+    image: 'https://images.pexels.com/photos/26424767/pexels-photo-26424767.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
+    views: '1.9M',
+    avgRating: 4.7,
+  },
+  {
+    id: '10',
+    title: 'Obsidian Crown',
+    genre: 'Fantasy',
+    style: 'Anime',
+    episodes: 14,
+    rating: 'Mature',
+    description: 'A cursed prince must shatter the crown that grants him immortality before it consumes the kingdom he swore to protect.',
+    gradient: 'linear-gradient(135deg, #b5179e, #240046)',
+    // Cyberpunk neon portrait — dark royalty
+    image: 'https://images.pexels.com/photos/31840612/pexels-photo-31840612.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
+    views: '3.5M',
+    avgRating: 4.6,
+  },
+  {
+    id: '11',
+    title: 'Gravekeeper\'s Waltz',
+    genre: 'Supernatural',
+    style: 'Anime',
+    episodes: 11,
+    rating: '18+',
+    description: 'Every midnight, the dead rise in a forgotten cemetery — and the sole gravekeeper must dance with them to keep the seal from breaking.',
+    gradient: 'linear-gradient(135deg, #38b000, #0a1f0a)',
+    // Cyberpunk samurai in neon glow
+    image: 'https://images.pexels.com/photos/31971484/pexels-photo-31971484.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
+    views: '1.1M',
+    avgRating: 4.5,
+  },
+  {
+    id: '12',
+    title: 'Velvet Vendetta',
+    genre: 'Revenge',
+    style: 'Anime',
+    episodes: 9,
+    rating: '18+',
+    description: 'Framed for a massacre she didn\'t commit, a disgraced noblewoman returns with a new face and a list of names to destroy.',
+    gradient: 'linear-gradient(135deg, #ff0a54, #2b0a1a)',
+    // Cyberpunk neon sword warrior
+    image: 'https://images.pexels.com/photos/31971485/pexels-photo-31971485.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
+    views: '2.8M',
+    avgRating: 4.8,
+  },
 ];
 
 export const MOCK_EPISODES = [
