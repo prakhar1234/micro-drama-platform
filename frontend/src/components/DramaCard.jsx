@@ -4,6 +4,14 @@ function DramaCard({ drama }) {
   return (
     <Link to={`/drama/${drama.id}`} className="drama-card">
       <div className="card-image" style={{ background: drama.gradient }}>
+        {drama.image && (
+          <img
+            src={drama.image}
+            alt={drama.title}
+            className="card-img"
+            loading="lazy"
+          />
+        )}
         <div className="card-overlay">
           <span className="card-rating">{drama.rating}</span>
           <span className="card-episodes">{drama.episodes} eps</span>

@@ -1,14 +1,21 @@
 import { Link } from 'react-router-dom';
 import DramaCard from '../components/DramaCard';
-import { MOCK_DRAMAS, GENRES } from '../data/mockData';
+import { MOCK_DRAMAS, GENRES, HERO_IMAGE, CTA_IMAGE } from '../data/mockData';
 
 function Home() {
   const featured = MOCK_DRAMAS[2]; // Neon Requiem as featured
 
   return (
     <div className="home">
-      {/* Hero / Featured Banner */}
-      <section className="hero" style={{ background: featured.gradient }}>
+      {/* Hero / Featured Banner with real image */}
+      <section
+        className="hero"
+        style={{
+          backgroundImage: `url(${HERO_IMAGE})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center top',
+        }}
+      >
         <div className="hero-overlay">
           <div className="hero-content">
             <span className="hero-badge">Featured</span>
@@ -69,11 +76,20 @@ function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="cta-section">
-        <h2>Ready for your next obsession?</h2>
-        <p>Join thousands of adults streaming bold, short-form anime dramas.</p>
-        <Link to="/login" className="btn btn-primary btn-lg">Get Started Free</Link>
+      {/* CTA with background image */}
+      <section
+        className="cta-section"
+        style={{
+          backgroundImage: `url(${CTA_IMAGE})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="cta-overlay">
+          <h2>Ready for your next obsession?</h2>
+          <p>Join thousands of adults streaming bold, short-form anime dramas.</p>
+          <Link to="/login" className="btn btn-primary btn-lg">Get Started Free</Link>
+        </div>
       </section>
     </div>
   );
