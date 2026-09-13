@@ -4,11 +4,11 @@ export const GENRES = [
   'Tragedy', 'Supernatural', 'Mecha', 'Isekai', 'Revenge',
 ];
 
-// Hero banner image — dark anime/action cinematic
-export const HERO_IMAGE = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1920&h=1080&fit=crop&q=80';
+// Hero — cyberpunk samurai with neon sword at night
+export const HERO_IMAGE = 'https://images.pexels.com/photos/31971484/pexels-photo-31971484.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop';
 
-// CTA background
-export const CTA_IMAGE = 'https://images.unsplash.com/photo-1541562232579-512a21360020?w=1920&h=800&fit=crop&q=80';
+// CTA — futuristic samurai warrior with neon swords
+export const CTA_IMAGE = 'https://images.pexels.com/photos/31971487/pexels-photo-31971487.jpeg?auto=compress&cs=tinysrgb&w=1920&h=800&fit=crop';
 
 export const MOCK_DRAMAS = [
   {
@@ -20,7 +20,8 @@ export const MOCK_DRAMAS = [
     rating: '18+',
     description: 'Two rival assassins bound by an ancient blood pact discover that betrayal cuts deeper than any blade.',
     gradient: 'linear-gradient(135deg, #e63946, #6b1d23)',
-    image: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=250&fit=crop&q=80',
+    // Cyberpunk cosplay neon warrior
+    image: 'https://images.pexels.com/photos/31971471/pexels-photo-31971471.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '2.4M',
     avgRating: 4.8,
   },
@@ -33,7 +34,8 @@ export const MOCK_DRAMAS = [
     rating: 'Mature',
     description: 'A therapist begins losing the boundary between her patients\u2019 delusions and her own reality.',
     gradient: 'linear-gradient(135deg, #4a00e0, #1a0a3e)',
-    image: 'https://images.unsplash.com/photo-1560972550-aba3456b5564?w=400&h=250&fit=crop&q=80',
+    // Neon mask — dark psychological thriller
+    image: 'https://images.pexels.com/photos/5744639/pexels-photo-5744639.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.8M',
     avgRating: 4.9,
   },
@@ -46,7 +48,8 @@ export const MOCK_DRAMAS = [
     rating: '18+',
     description: 'In a city where memories are currency, a street hacker steals a dead woman\u2019s final thought\u2014and it changes everything.',
     gradient: 'linear-gradient(135deg, #00f5d4, #0a2e36)',
-    image: 'https://images.unsplash.com/photo-1541562232579-512a21360020?w=400&h=250&fit=crop&q=80',
+    // Cyberpunk samurai armor at night
+    image: 'https://images.pexels.com/photos/31971483/pexels-photo-31971483.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '3.1M',
     avgRating: 4.7,
   },
@@ -59,7 +62,8 @@ export const MOCK_DRAMAS = [
     rating: '18+',
     description: 'A botanical researcher inherits a greenhouse where the flowers grow from human remains.',
     gradient: 'linear-gradient(135deg, #2d6a4f, #0b1a0f)',
-    image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=250&fit=crop&q=80',
+    // Anonymous neon mask — horror vibe
+    image: 'https://images.pexels.com/photos/26424766/pexels-photo-26424766.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.2M',
     avgRating: 4.5,
   },
@@ -72,7 +76,8 @@ export const MOCK_DRAMAS = [
     rating: 'Mature',
     description: 'A washed-up pianist gets one final shot at redemption\u2014but the stage holds a secret that could destroy her.',
     gradient: 'linear-gradient(135deg, #f4a261, #3d2608)',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&h=250&fit=crop&q=80',
+    // Neon light face mask — dramatic
+    image: 'https://images.pexels.com/photos/12932549/pexels-photo-12932549.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '890K',
     avgRating: 4.9,
   },
@@ -85,7 +90,8 @@ export const MOCK_DRAMAS = [
     rating: 'Mature',
     description: 'Pulled into a fractured dimension, a jaded office worker must survive worlds built from humanity\u2019s worst fears.',
     gradient: 'linear-gradient(135deg, #7209b7, #1a0533)',
-    image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400&h=250&fit=crop&q=80',
+    // Cyberpunk warrior with dual neon swords
+    image: 'https://images.pexels.com/photos/31971487/pexels-photo-31971487.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '4.2M',
     avgRating: 4.6,
   },
@@ -98,7 +104,8 @@ export const MOCK_DRAMAS = [
     rating: '18+',
     description: 'An underground fight club meets a symphony orchestra in this high-octane tale of rhythm and violence.',
     gradient: 'linear-gradient(135deg, #ff6b6b, #4a1a1a)',
-    image: 'https://images.unsplash.com/photo-1533228876829-65c94e7b5025?w=400&h=250&fit=crop&q=80',
+    // Cyberpunk samurai neon sword closeup
+    image: 'https://images.pexels.com/photos/31971485/pexels-photo-31971485.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '2.7M',
     avgRating: 4.4,
   },
@@ -111,7 +118,8 @@ export const MOCK_DRAMAS = [
     rating: 'Mature',
     description: 'A detective who can see the invisible threads connecting people to their crimes unravels a conspiracy woven across time.',
     gradient: 'linear-gradient(135deg, #457b9d, #0d1b2a)',
-    image: 'https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=400&h=250&fit=crop&q=80',
+    // Neon mask in dark — mysterious
+    image: 'https://images.pexels.com/photos/6691950/pexels-photo-6691950.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.5M',
     avgRating: 4.8,
   },
