@@ -2,10 +2,16 @@ services:
   - type: web
     name: micro-drama-platform
     runtime: node
-    buildCommand: npm install && npm run build
-    startCommand: npm start
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: npm install --production=false && npm run build
+    startCommand: node backend/src/server.js
+    healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NODE_VERSION
+        value: 20.16.0
       - key: JWT_SECRET
         generateValue: true
