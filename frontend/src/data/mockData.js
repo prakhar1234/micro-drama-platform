@@ -24,6 +24,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971471/pexels-photo-31971471.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '2.4M',
     avgRating: 4.8,
+    promo: 'New Episode This Friday',
   },
   {
     id: '2',
@@ -38,6 +39,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/5744639/pexels-photo-5744639.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.8M',
     avgRating: 4.9,
+    promo: 'Season Finale Now Streaming',
   },
   {
     id: '3',
@@ -52,6 +54,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971483/pexels-photo-31971483.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '3.1M',
     avgRating: 4.7,
+    promo: 'Trending #1 This Week',
   },
   {
     id: '4',
@@ -66,6 +69,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/26424766/pexels-photo-26424766.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.2M',
     avgRating: 4.5,
+    promo: 'Binge the Full Season',
   },
   {
     id: '5',
@@ -80,6 +84,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/12932549/pexels-photo-12932549.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '890K',
     avgRating: 4.9,
+    promo: 'Critics\' Pick of the Month',
   },
   {
     id: '6',
@@ -94,6 +99,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971487/pexels-photo-31971487.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '4.2M',
     avgRating: 4.6,
+    promo: 'Most Watched Series',
   },
   {
     id: '7',
@@ -108,6 +114,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971485/pexels-photo-31971485.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '2.7M',
     avgRating: 4.4,
+    promo: 'New Episodes Weekly',
   },
   {
     id: '8',
@@ -122,6 +129,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/6691950/pexels-photo-6691950.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.5M',
     avgRating: 4.8,
+    promo: 'Fan Favorite',
   },
   {
     id: '9',
@@ -136,6 +144,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/26424767/pexels-photo-26424767.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.9M',
     avgRating: 4.7,
+    promo: 'Season 2 Coming Soon',
   },
   {
     id: '10',
@@ -150,6 +159,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31840612/pexels-photo-31840612.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '3.5M',
     avgRating: 4.6,
+    promo: 'Editor\'s Choice',
   },
   {
     id: '11',
@@ -164,6 +174,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971484/pexels-photo-31971484.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '1.1M',
     avgRating: 4.5,
+    promo: 'Binge-Worthy Pick',
   },
   {
     id: '12',
@@ -178,6 +189,7 @@ export const MOCK_DRAMAS = [
     image: 'https://images.pexels.com/photos/31971485/pexels-photo-31971485.jpeg?auto=compress&cs=tinysrgb&w=500&h=320&fit=crop',
     views: '2.8M',
     avgRating: 4.8,
+    promo: 'Just Added',
   },
 ];
 

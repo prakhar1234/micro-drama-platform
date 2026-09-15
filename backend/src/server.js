@@ -20,6 +20,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/dramas', require('./routes/dramas'));
 app.use('/api/episodes', require('./routes/episodes'));
 app.use('/api/users', require('./routes/users'));
+app.use('/api/generate', require('./routes/generate'));
 
 // Serve frontend in production
 const frontendDist = path.join(__dirname, '../../frontend/dist');

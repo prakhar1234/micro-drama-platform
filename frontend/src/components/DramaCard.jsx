@@ -16,6 +16,9 @@ function DramaCard({ drama }) {
           <span className="card-rating">{drama.rating}</span>
           <span className="card-episodes">{drama.episodes} eps</span>
         </div>
+        {drama.promo && (
+          <div className="card-promo-badge">{drama.promo}</div>
+        )}
         <div className="card-play">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
             <polygon points="5,3 19,12 5,21" />

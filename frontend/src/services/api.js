@@ -31,4 +31,8 @@ export const api = {
   // User
   getProfile: () => request('/users/profile'),
   getWatchlist: () => request('/users/watchlist'),
+
+  // Generation
+  startGeneration: (data) => request('/generate', { method: 'POST', body: JSON.stringify(data) }),
+  getGenerationStatus: (jobId) => request('/generate/' + jobId),
 };

@@ -1,8 +1,45 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { MOCK_DRAMAS, MOCK_EPISODES } from '../data/mockData';
 
 function Player() {
   const { episodeId } = useParams();
+  const [searchParams] = useSearchParams();
+
+  const videoUrl = searchParams.get('videoUrl');
+  const genTitle = searchParams.get('title');
+  const genDrama = searchParams.get('drama');
+
+  // AI-generated video mode
+  if (videoUrl) {
+    return (
+      <div className="player-page player-page-generated">
+        <div className="video-wrapper">
+          <video
+            className="gen-video"
+            src={videoUrl}
+            controls
+            autoPlay
+          />
+        </div>
+        <div className="player-info">
+          <div className="player-details">
+            <p className="player-drama-title">{genDrama || 'AI Generated'}</p>
+            <h2>{genTitle || 'Generated Episode'}</h2>
+            <div className="player-meta">
+              <span className="gen-badge">AI Generated</span>
+              <span>Runway Gen-4</span>
+            </div>
+            <div className="player-actions">
+              <button className="btn btn-outline btn-sm">Like</button>
+              <button className="btn btn-outline btn-sm">Share</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Standard mock episode mode
   const epIndex = MOCK_EPISODES.findIndex(e => e.id === episodeId);
   const episode = MOCK_EPISODES[epIndex] || MOCK_EPISODES[0];
   const drama = MOCK_DRAMAS[0];
